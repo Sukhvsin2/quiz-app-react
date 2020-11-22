@@ -1,0 +1,27 @@
+.question{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.ques_options{
+    background-color: antiquewhite;
+    margin: 10px 25px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 10vw;
+}
+
+.ques_options:focus{
+    outline: none;
+}
+
+.ques_options:hover{
+    background-color: bisque;
+}
+
+.resultShow{
+    display: none;
+}
